@@ -46,6 +46,7 @@ class GeodeGame:
         Returns:
             int: Exit Code
         """
+        self.geodeMiners += 1
         return 0
 
     def saveCurrentGame(self) -> int:
