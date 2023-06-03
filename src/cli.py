@@ -7,7 +7,7 @@ def clear() -> int:
         int: os.system return code
     """
 
-    return system("cls" if name == "nt" else "test")
+    return system("cls" if name == "nt" else "clear")
 
 
 def main_interface() -> int:
