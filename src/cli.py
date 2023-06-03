@@ -1,7 +1,14 @@
 from os import name, system
 
-def clear():
+def clear() -> int:
     """Clears the terminal
+
+    Returns:
+        int: os.system return code
     """
 
-    system("cls" if name == "nt" else "clear")
+    return system("cls" if name == "nt" else "test")
+
+
+def main_interface() -> int:
+    return

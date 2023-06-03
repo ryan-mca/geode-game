@@ -1,5 +1,11 @@
+import cli
+
 def main():
-    return
+    cli.clear()
+
+    while True:
+        cli.main_interface()
+        break
 
 if __name__ == "__main__":
     try:
